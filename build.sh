@@ -1,0 +1,1 @@
+clang -framework CoreVideo -framework IOKit -framework Cocoa -framework GLUT -framework OpenGL -I external/ external/libraylib.a main.c -o protoGame
